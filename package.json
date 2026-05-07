@@ -1,0 +1,24 @@
+{
+  "name": "ai-content-pipeline",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:agent1": "bun --env-file=.env ./src/test-agent1.ts",
+    "test:agent2": "bun --env-file=.env ./src/test-agent2.ts",
+    "test:agent3": "bun --env-file=.env ./src/test-agent3.ts",
+    "test:agent4": "bun --env-file=.env ./src/test-agent4.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.92.0",
+    "dotenv": "^17.4.2",
+    "groq-sdk": "^1.1.2",
+    "langfuse": "^3.38.20"
+  }
+}

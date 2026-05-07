@@ -1,0 +1,56 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+!.env.sample
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# secrets and confidential files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*secret*
+*secrets*
+*credential*
+*credentials*
+service-account*.json
+firebase-adminsdk*.json
+google-credentials*.json
+credentials.json
+secrets.json
+config.local.json
+config.private.json
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
