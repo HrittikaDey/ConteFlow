@@ -1,0 +1,16 @@
+ 8 | const supabase = createClient(
+ 9 |   supabaseConfig.url,
+10 |   supabaseConfig.anonKey
+11 | );
+12 | 
+13 | const server = Bun.serve({
+                        ^
+error: Failed to start server. Is port 3000 in use?
+ syscall: "listen",
+   errno: 0,
+    code: "EADDRINUSE"
+
+      at C:\Users\arink\ai-content-pipeline\src\server.ts:13:20
+      at loadAndEvaluateModule (2:1)
+
+Bun v1.3.13 (Windows x64)
