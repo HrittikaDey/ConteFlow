@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "start": "bun ./src/server.ts",
     "test:agent1": "bun --env-file=.env ./src/test-agent1.ts",
     "test:agent2": "bun --env-file=.env ./src/test-agent2.ts",
     "test:agent3": "bun --env-file=.env ./src/test-agent3.ts",
