@@ -11,7 +11,8 @@ const supabase = createClient(
 );
 
 const server = Bun.serve({
-  port: 3000,
+  port: Number(process.env.PORT) || 3000,
+  hostname: '0.0.0.0',
   async fetch(req) {
     const url = new URL(req.url);
 
@@ -145,7 +146,7 @@ if (error) {
   }
 });
 
-console.log("🚀 Pipeline API server running on http://localhost:3000");
-console.log("   POST http://localhost:3000/pipeline");
-console.log("   GET  http://localhost:3000/health");
-console.log("   GET  http://localhost:3000/runs");
+console.log(`🚀 Pipeline API server running on port ${server.port}`);
+console.log(`   POST /pipeline`);
+console.log(`   GET  /health`);
+console.log(`   GET  /runs`);
