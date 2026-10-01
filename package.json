@@ -20,7 +20,7 @@
     "@anthropic-ai/sdk": "^0.92.0",
     "@supabase/supabase-js": "^2.117.2",
     "dotenv": "^17.4.2",
-    "groq-sdk": "^1.1.2",
-    "langfuse": "^3.38.20"
+    "groq-sdk": "^1.6.0",
+    "langfuse": "^3.39.2"
   }
 }

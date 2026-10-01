@@ -8,8 +8,8 @@
         "@anthropic-ai/sdk": "^0.92.0",
         "@supabase/supabase-js": "^2.117.2",
         "dotenv": "^17.4.2",
-        "groq-sdk": "^1.1.2",
-        "langfuse": "^3.38.20",
+        "groq-sdk": "^1.6.0",
+        "langfuse": "^3.39.2",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -46,15 +46,15 @@
 
     "dotenv": ["dotenv@17.4.2", "", {}, "sha512-nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw=="],
 
-    "groq-sdk": ["groq-sdk@1.1.2", "", { "bin": { "groq-sdk": "bin/cli" } }, "sha512-CZO0XUQQDhn43ri1+lZHxZKpb+bGutgTvFmCJtooexiitGmPqhm1hntOT3nCoaq07e+OpeokVnfUs0i/oQuUaQ=="],
+    "groq-sdk": ["groq-sdk@1.6.0", "", { "bin": { "groq-sdk": "bin/cli" } }, "sha512-ggMgo6n84aZdNObgkSbSxWrdAq4wABsViIRb5e4N15bMUtDLZVhqlgZOI7X4TeqdBMdaVUOuUdZxAZIp06u0vw=="],
 
     "iceberg-js": ["iceberg-js@0.8.1", "", {}, "sha512-1dhVQZXhcHje7798IVM+xoo/1ZdVfzOMIc8/rgVSijRK38EDqOJoGula9N/8ZI5RD8QTxNQtK/Gozpr+qUqRRA=="],
 
     "json-schema-to-ts": ["json-schema-to-ts@3.1.1", "", { "dependencies": { "@babel/runtime": "^7.18.3", "ts-algebra": "^2.0.0" } }, "sha512-+DWg8jCJG2TEnpy7kOm/7/AxaYoaRbjVB4LFZLySZlWn8exGs3A4OLJR966cVvU26N7X9TWxl+Jsw7dzAqKT6g=="],
 
-    "langfuse": ["langfuse@3.38.20", "", { "dependencies": { "langfuse-core": "^3.38.20" } }, "sha512-MAmBAASSzJtmK1O9HQegA1mFsQhT8Yf+OJRGvE7FXkyv3g/eiBE0glLD0Ohg3pkxhoPdggM5SejK7ue9ctlaMA=="],
+    "langfuse": ["langfuse@3.39.2", "", { "dependencies": { "langfuse-core": "^3.39.2" } }, "sha512-GEn2EFkLUkaf19wewu5TuMFoiiY5AZwhuWl7jvtXrf4JASa54c5ObTGTCG71XGIjNw3PhomD/xD4ZRi6JX8EcQ=="],
 
-    "langfuse-core": ["langfuse-core@3.38.20", "", { "dependencies": { "mustache": "^4.2.0" } }, "sha512-zBKVmQN/1oT5VWZUBYlWzvokIlkC/6mnpgr/2atMyTeAm+jR3ia7w2iJMjlrF5/oG8ukO1s8+LDRCzJpF1QeEA=="],
+    "langfuse-core": ["langfuse-core@3.39.2", "", { "dependencies": { "mustache": "^4.2.0" } }, "sha512-+NkjTBF6mX3Z1muFhevxdZPksh7ZF2XvW0LoeCzNgmLrwpLml6g9mZQQEO1GXTbtd5kqB2PmZnkTCziZVOpOBA=="],
 
     "mustache": ["mustache@4.2.0", "", { "bin": { "mustache": "bin/mustache" } }, "sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ=="],
 
