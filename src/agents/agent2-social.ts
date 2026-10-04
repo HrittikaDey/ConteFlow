@@ -44,7 +44,7 @@ const startTime = Date.now();
       },
       {
         role: "user",
-        content: `Based on this blog post, create social media content.
+        content: `Based on this blog post, create detailed social media content.
 TITLE: ${blogPost.title}
 INTRO: ${blogPost.intro}
 SECTIONS: ${blogPost.sections.map(s => s.heading).join(", ")}
@@ -53,20 +53,20 @@ CONCLUSION: ${blogPost.conclusion}
 Return ONLY this JSON structure:
 {
   "linkedin": {
-    "post": "write a 150 word professional post here",
+    "post": "write a 250-300 word professional LinkedIn post here with line breaks, insights and storytelling",
     "hashtags": ["ai", "marketing", "content", "digital", "business"],
-    "character_count": 800
+    "character_count": 1800
   },
   "twitter": {
-    "post": "write a punchy tweet under 250 chars here",
+    "post": "write a punchy tweet under 280 chars here",
     "hashtags": ["ai", "marketing", "content"],
-    "character_count": 200
+    "character_count": 250
   },
   "instagram": {
-    "caption": "write an engaging caption with emojis here",
+    "caption": "write a 150-200 word engaging Instagram caption with emojis and line breaks",
     "hashtags": ["ai", "marketing", "content", "digital", "business", "growth", "socialmedia", "branding", "strategy", "future"],
-    "emoji_hook": "🤖✨📈",
-    "character_count": 500
+    "emoji_hook": "🚀✨📈",
+    "character_count": 1200
   }
 }`
       }
